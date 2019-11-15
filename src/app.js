@@ -31,7 +31,7 @@ app.get('/savings', (req,res) => {
 app.get('/checking', (req,res) => {
     res.render('account',{account:accounts.checking});
 });
-app.get('/credits', (req,res) => {
+app.get('/credit', (req,res) => {
     res.render('account',{account:accounts.credit});
 });
 
